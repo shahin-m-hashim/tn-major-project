@@ -4,8 +4,8 @@ import Container from '@mui/material/Container';
 
 function HeroSection() {
     return (
-        <div id="home" className="hero-section">
-            <section className="banner-one banner-img">
+        <div id="home">
+            <section className="hero-sec banner-one banner-img">
                 <Container maxWidth="xl">
                     <div className="banner-text text-center">
                         <h1>THE BEST <span>DIGITAL MARKETING</span> &amp; BRANDING</h1>
