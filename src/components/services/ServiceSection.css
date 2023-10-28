@@ -1,0 +1,11 @@
+.service-section {
+    padding: 100px 0;
+}
+
+.box-bg {
+    height: 35vh;
+}
+
+.box-bg svg {
+    fill: grey;
+}
