@@ -8,7 +8,6 @@
 }
 
 .portfolio-box {
-    background-color: transparent;
+    background-color: transparent !important;
     box-shadow: none !important;
-    border: none;
 }

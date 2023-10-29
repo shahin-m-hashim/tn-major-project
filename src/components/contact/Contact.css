@@ -1,0 +1,53 @@
+.contact-section {
+    padding: 100px 0;
+}
+
+.form-container {
+    gap: 15px;
+}
+
+.address-box,
+.email-box,
+.phone-box {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.contact-section .box-icon {
+    margin: auto;
+    border: 1px solid #f6994b;
+    padding: 20px;
+    fill: #f6994b;
+    border-radius: 50%;
+}
+
+.contact-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 30px;
+}
+
+.contact-links a {
+    background: #f6994b;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contact-links svg {
+    fill: white;
+    width: 25px;
+    height: 25px;
+}
+
+.contact-section .contact-form div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-section .contact-form .name-inp div,
+.email-inp div {
+    background-color: white;
+}
