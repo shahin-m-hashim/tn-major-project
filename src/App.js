@@ -4,6 +4,7 @@ import AboutSection from './components/about/About';
 import ServicesSection from './components/services/ServiceSection';
 import PortfolioSection from './components/portfolio/PortfolioSection';
 import ContactUs from './components/contact/ContactSection.js';
+import Footer from './components/footer/Footer.js';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <PortfolioSection />
                 <ContactUs />
             </main>
+            <Footer />
         </div>
     );
 }

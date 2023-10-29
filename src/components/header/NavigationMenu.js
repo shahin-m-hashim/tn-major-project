@@ -2,7 +2,24 @@ import React from 'react';
 import { Button, IconButton, Menu, MenuItem, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const pages = ['Home', 'About Us', 'Services', 'Portfolio', 'Contact Us'];
+const pages = [
+    {
+        name: 'Home',
+        id: '#home'
+    }, {
+        name: 'About Us',
+        id: '#about-sec'
+    }, {
+        name: 'Services',
+        id: '#service-sec'
+    }, {
+        name: 'Portfolio',
+        id: '#portfolio-sec'
+    }, {
+        name: 'Contact Us',
+        id: '#contact-sec'
+    }
+];
 
 function Navbar() {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -31,10 +48,12 @@ function Navbar() {
             </IconButton>
 
             <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} className='nav-menu'>
-                {pages.map((page, index) => (
-                    <Button key={page} sx={{ my: 2, color: 'white', display: 'block' }}>
-                        {page}
-                    </Button>
+                {pages.map((page) => (
+                    <a href={page.id}>
+                        <Button style={{ color: '#f6994b' }} key={page.name} sx={{ my: 2, color: 'white', display: 'block' }}>
+                            {page.name}
+                        </Button>
+                    </a>
                 ))}
             </Typography>
 
@@ -57,8 +76,12 @@ function Navbar() {
                 }}
             >
                 {pages.map((page) => (
-                    <MenuItem key={page} onClick={handleCloseMenu}>
-                        <Typography textAlign="center">{page}</Typography>
+                    <MenuItem key={page.name} onClick={handleCloseMenu}>
+                        <a href={page.id} style={{ color: '#f6994b' }}>
+                            <Typography textAlign="center">
+                                {page.name}
+                            </Typography>
+                        </a>
                     </MenuItem>
                 ))}
             </Menu>
