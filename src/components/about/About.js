@@ -18,6 +18,12 @@ function AboutSection() {
     return (
         <section className="abt-section about-box" id="about-sec">
             <Container>
+                <center>
+                    <Typography variant="h3">
+                        <b>ABOUT US</b>
+                    </Typography>
+                </center>
+                <br /><br /><br />
                 <Grid container spacing={5}>
                     <Grid item xs={12} sm={12} md={6}>
                         <div style={{ display: 'grid', rowGap: '20px' }}>

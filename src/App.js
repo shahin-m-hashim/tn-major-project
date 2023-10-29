@@ -1,8 +1,8 @@
-import * as React from 'react';
 import Header from './components/header/Header.js';
 import HeroSection from './components/hero/HeroSection';
 import AboutSection from './components/about/About';
-import ServicesSection from './components/services/ServiceSection.js';
+import ServicesSection from './components/services/ServiceSection';
+import PortfolioSection from './components/portfolio/PortfolioSection'
 
 function App() {
     return (
@@ -12,6 +12,7 @@ function App() {
                 <HeroSection />
                 <AboutSection />
                 <ServicesSection />
+                <PortfolioSection />
             </main>
         </div>
     );

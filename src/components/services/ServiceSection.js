@@ -89,8 +89,13 @@ function ServicesSection() {
             <Container>
                 <center>
                     <div className="title-box">
-                        <Typography variant="h4"><b>Our Services</b></Typography>
-                        <Typography>There are many variations of passages available.</Typography>
+                        <center>
+                            <Typography variant="h3">
+                                <b>SERVICES</b>
+                            </Typography>
+                        </center>
+                        <br />
+                        <Typography variant='h4'>There are many variations of passages available.</Typography>
                     </div>
                 </center>
                 <br />
