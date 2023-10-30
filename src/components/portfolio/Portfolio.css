@@ -1,0 +1,13 @@
+.portfolio-section {
+    padding: 100px 0;
+}
+
+.person-container {
+    background-color: #f6994b;
+    height: max-content;
+}
+
+.portfolio-box {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}

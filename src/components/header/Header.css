@@ -1,0 +1,65 @@
+.site-header {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.header-logo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.header-logo h2 {
+    padding-bottom: '7px';
+    margin-left: '10px'
+}
+
+.nav-toggler-ico svg {
+    width: 1.7em;
+    height: 1.7em;
+}
+
+.nav-menu {
+    -webkit-box-flex: 0 !important;
+    -ms-flex-positive: 0 !important;
+    flex-grow: 0 !important;
+    gap: 30px;
+}
+
+.nav-menu button {
+    color: brown;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+/* Responsiveness */
+
+@media only screen and (width < 500px) {
+
+    .site-header {
+        height: 50px;
+    }
+
+    .header-logo img {
+        width: 35px;
+    }
+
+    .header-logo h2 {
+        display: none;
+    }
+}
