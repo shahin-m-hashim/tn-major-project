@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tn-major-project/static/css/main.863ef3b4.css",
+    "main.js": "/tn-major-project/static/js/main.bd8bb1d0.js",
+    "static/media/aboutus.jpg": "/tn-major-project/static/media/aboutus.bdfb242426cf38dc3729.jpg",
+    "static/media/item2.jpg": "/tn-major-project/static/media/item2.4aba690e84f6c987abb2.jpg",
+    "static/media/hero-banner.jpg": "/tn-major-project/static/media/hero-banner.32af84c3bdce5341d961.jpg",
+    "static/media/item1.jpg": "/tn-major-project/static/media/item1.7cf1adf07df351212084.jpg",
+    "static/media/item6.jpg": "/tn-major-project/static/media/item6.0da608c3d87126401b41.jpg",
+    "static/media/item3.jpg": "/tn-major-project/static/media/item3.9ecba53b9648ccd35424.jpg",
+    "static/media/person1.jpg": "/tn-major-project/static/media/person1.2420172a87a33e6756bc.jpg",
+    "static/media/person4.jpg": "/tn-major-project/static/media/person4.a84e3504b42d2a22b44d.jpg",
+    "static/media/person3.jpg": "/tn-major-project/static/media/person3.09568abcf556d8b85fd1.jpg",
+    "static/media/item5.jpg": "/tn-major-project/static/media/item5.de0baa4c6c395e80f50c.jpg",
+    "static/media/person2.jpg": "/tn-major-project/static/media/person2.a24ee09d52fca270b487.jpg",
+    "static/media/item4.jpg": "/tn-major-project/static/media/item4.2eec4676a059bdf6984a.jpg",
+    "static/media/dmlogo.avif": "/tn-major-project/static/media/dmlogo.bb6be2b06384b918a6ef.avif",
+    "index.html": "/tn-major-project/index.html",
+    "main.863ef3b4.css.map": "/tn-major-project/static/css/main.863ef3b4.css.map",
+    "main.bd8bb1d0.js.map": "/tn-major-project/static/js/main.bd8bb1d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.863ef3b4.css",
+    "static/js/main.bd8bb1d0.js"
+  ]
+}
